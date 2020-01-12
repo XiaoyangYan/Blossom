@@ -1,0 +1,9 @@
+version: '3'
+services:
+  blossom-backend:
+    image: yxyshuai123/blossom-backend
+    build: ./
+    env_file: 
+    - .env
+    ports: 
+      - "80:8080"
