@@ -1,5 +1,6 @@
 # Blossom
-花开之日， 即是吾重生之时
-The day the flower blosoom, the day I restart my shit life.
 
-
+今生万水千山，复看隆冬新雪。
+彼时花前月下，千金散尽复还。
+龟寿亦有亡时，沧海扬鞭东指。
+天道周而复始，西风枯藤残月。
