@@ -122,17 +122,3 @@
                     - Key: 'Freetext'
                       Value:
                           Ref: 'Notes'
-    
-    Outputs:
-        PrimaryAddress:
-            Description: 'The DNS address of the primary read-write cache node.'
-            Value: !GetAtt ElastiCacheCluster.PrimaryEndPoint.Address
-        PrimaryPort:
-            Description: 'The number of the port that the primary read-write cache engine is listening on.'
-            Value: !GetAtt ElastiCacheCluster.PrimaryEndPoint.Port
-        SecondaryAddresses:
-            Description: 'A string with a list of endpoints for the read-only replicas.'
-            Value: !GetAtt ElastiCacheCluster.ReadEndPoint.Addresses
-        SecondaryPorts:
-            Description: 'A string with a list of ports for the read-only replicas. '
-            Value: !GetAtt ElastiCacheCluster.ReadEndPoint.Ports
